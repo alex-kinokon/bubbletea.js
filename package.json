@@ -1,0 +1,32 @@
+{
+  "name": "bubbletea.js",
+  "type": "module",
+  "private": true,
+  "module": "index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "build": "tsup",
+    "typecheck": "bunx tsc --noEmit"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "devDependencies": {
+    "@aet/eslint-rules": "2.0.127",
+    "@types/bun": "latest",
+    "eslint": "^9.39.4",
+    "prettier": "^3.8.1",
+    "tsup": "^8.5.1"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "tabWidth": 2,
+    "printWidth": 90,
+    "semi": true,
+    "singleQuote": false,
+    "trailingComma": "es5"
+  }
+}

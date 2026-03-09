@@ -1,0 +1,7 @@
+{
+  "cSpell.words": [
+    "charmbracelet"
+  ],
+  "editor.formatOnSave": true,
+  "eslint.runtime": "node"
+}

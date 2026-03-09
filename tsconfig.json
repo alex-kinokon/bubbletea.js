@@ -1,0 +1,16 @@
+{
+  "extends": "@aet/eslint-rules/tsconfig",
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "moduleDetection": "force",
+    "module": "Preserve",
+    "allowJs": true,
+    "noFallthroughCasesInSwitch": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "declaration": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["eslint.config.js"]
+}
